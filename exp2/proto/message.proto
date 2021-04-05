@@ -1,0 +1,7 @@
+syntax="proto3";
+package kafka;
+option go_package="kafka/proto";
+message Kafka{
+    int64 message_id=1;
+    string message_content=2;
+}
